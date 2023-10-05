@@ -48,7 +48,7 @@ const getAllFaculties = async (
   }
 
   // Filters needs $and to fullfill all the conditions
-  console.log(filtersData)
+  console.log(filtersData);
   if (Object.keys(filtersData).length) {
     andConditions.push({
       $and: Object.entries(filtersData).map(([field, value]) => ({
@@ -101,25 +101,32 @@ const deleteByIdFromDB = async (
   return result;
 };
 
-const insertIntoDBFromEvent = async (e: AcademicFacultyCreatedEvent): Promise<void> => {
+const insertIntoDBFromEvent = async (
+  e: AcademicFacultyCreatedEvent
+): Promise<void> => {
+  // console.log(e);
   await AcademicFaculty.create({
     syncId: e.id,
-    title: e.title
+    title: e.title,
   });
 };
 
-const updateOneInDBFromEvent = async (e: AcademicFacultyUpdatedEvent): Promise<void> => {
+const updateOneInDBFromEvent = async (
+  e: AcademicFacultyUpdatedEvent
+): Promise<void> => {
+  console.log('update', e);
   await AcademicFaculty.findOneAndUpdate(
     { syncId: e.id },
     {
       $set: {
-        title: e.title
-      }
+        title: e.title,
+      },
     }
   );
 };
 
 const deleteOneFromDBFromEvent = async (syncId: string): Promise<void> => {
+  console.log(syncId);
   await AcademicFaculty.findOneAndDelete({ syncId });
 };
 
@@ -131,5 +138,5 @@ export const AcademicFacultyService = {
   deleteByIdFromDB,
   insertIntoDBFromEvent,
   updateOneInDBFromEvent,
-  deleteOneFromDBFromEvent
+  deleteOneFromDBFromEvent,
 };

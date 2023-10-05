@@ -24,7 +24,7 @@ export type IAcademicSemester = {
   code: IAcademicSemesterCodes;
   startMonth: IAcademicSemesterMonths;
   endMonth: IAcademicSemesterMonths;
-  syncId: string
+  syncId: string;
 };
 
 export type AcademicSemesterModel = Model<IAcademicSemester>;
@@ -34,10 +34,10 @@ export type IAcademicSemesterFilters = {
 };
 
 export type IAcademicSemesterCreatedEvent = {
-  title: string,
-  year: string,
-  code: string,
-  startMonth: string,
-  endMonth: string,
-  id: string
-}
+  title: string;
+  year: number;
+  code: string;
+  startMonth: string;
+  endMonth: string;
+  id: string;
+};

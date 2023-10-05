@@ -120,7 +120,7 @@ const changePassword = async (
   // // hash password before saving
   // const newHashedPassword = await bcrypt.hash(
   //   newPassword,
-  //   Number(config.bycrypt_salt_rounds)
+  //   Number(config.bcrypt_salt_rounds)
   // );
 
   // const query = { id: user?.userId };

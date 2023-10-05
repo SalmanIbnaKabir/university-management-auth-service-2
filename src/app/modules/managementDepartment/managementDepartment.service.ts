@@ -8,6 +8,8 @@ import {
   IManagementDepartmentFilters,
 } from './managementDepartment.inerface';
 import { ManagementDepartment } from './managementDepartment.model';
+import ApiError from '../../../errors/ApiError';
+import httpStatus from 'http-status';
 
 const createDepartment = async (
   payload: IManagementDepartment
@@ -82,6 +84,11 @@ const updateDepartment = async (
   id: string,
   payload: Partial<IManagementDepartment>
 ): Promise<IManagementDepartment | null> => {
+  const isExist = await ManagementDepartment.findById(id);
+  if (!isExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Management department not found');
+  }
+
   const result = await ManagementDepartment.findOneAndUpdate(
     { _id: id },
     payload,
@@ -95,7 +102,7 @@ const updateDepartment = async (
 const deleteDepartment = async (
   id: string
 ): Promise<IManagementDepartment | null> => {
-  console.log(id)
+  console.log(id);
   const result = await ManagementDepartment.findByIdAndDelete(id);
   return result;
 };
