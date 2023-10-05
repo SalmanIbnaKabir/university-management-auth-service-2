@@ -112,23 +112,24 @@ const deleteSemester = async (
   return result;
 };
 
-
 const createSemesterFromEvent = async (
   e: IAcademicSemesterCreatedEvent
 ): Promise<void> => {
+  // console.log(e);
   await AcademicSemester.create({
     title: e.title,
     year: e.year,
     code: e.code,
     startMonth: e.startMonth,
     endMonth: e.endMonth,
-    syncId: e.id
+    syncId: e.id,
   });
 };
 
 const updateOneIntoDBFromEvent = async (
   e: IAcademicSemesterCreatedEvent
 ): Promise<void> => {
+  // console.log('update', e);
   await AcademicSemester.findOneAndUpdate(
     { syncId: e.id },
     {
@@ -137,13 +138,14 @@ const updateOneIntoDBFromEvent = async (
         year: e.year,
         code: e.code,
         startMonth: e.startMonth,
-        endMonth: e.endMonth
-      }
+        endMonth: e.endMonth,
+      },
     }
-  )
+  );
 };
 
 const deleteOneFromDBFromEvent = async (syncId: string): Promise<void> => {
+  // console.log(syncId);
   await AcademicSemester.findOneAndDelete({ syncId });
 };
 
@@ -155,5 +157,5 @@ export const AcademicSemesterService = {
   deleteSemester,
   createSemesterFromEvent,
   updateOneIntoDBFromEvent,
-  deleteOneFromDBFromEvent
+  deleteOneFromDBFromEvent,
 };

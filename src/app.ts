@@ -3,6 +3,7 @@ import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import routes from './app/routes';
+import morgan from 'morgan';
 
 import cookieParser from 'cookie-parser';
 
@@ -14,6 +15,9 @@ app.use(cookieParser());
 //parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Http request Logger
+app.use(morgan('dev'));
 
 // app.use('/api/v1/users/', UserRoutes);
 // app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);

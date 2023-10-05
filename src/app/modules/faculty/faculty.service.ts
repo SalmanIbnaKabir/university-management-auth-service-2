@@ -9,7 +9,10 @@ import httpStatus from 'http-status';
 import ApiError from '../../../errors/ApiError';
 import { RedisClient } from '../../../shared/redis';
 import { User } from '../user/user.model';
-import { EVENT_FACULTY_UPDATED, facultySearchableFields } from './faculty.constant';
+import {
+  EVENT_FACULTY_UPDATED,
+  facultySearchableFields,
+} from './faculty.constant';
 import { IFaculty, IFacultyFilters } from './faculty.interface';
 import { Faculty } from './faculty.model';
 
@@ -99,16 +102,15 @@ const updateFaculty = async (
     });
   }
 
-  const result = await Faculty.findOneAndUpdate({ id }, updatedFacultyData,
-    { new: true }
-  )
+  const result = await Faculty.findOneAndUpdate({ id }, updatedFacultyData, {
+    new: true,
+  })
     .populate('academicFaculty')
-    .populate('academicDepartment')
-    ;
-
+    .populate('academicDepartment');
   if (result) {
-    await RedisClient.publish(EVENT_FACULTY_UPDATED, JSON.stringify(result))
+    await RedisClient.publish(EVENT_FACULTY_UPDATED, JSON.stringify(result));
   }
+  // console.log(result);
   return result;
 };
 
