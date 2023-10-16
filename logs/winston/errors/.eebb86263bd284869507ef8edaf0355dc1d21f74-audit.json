@@ -6,41 +6,6 @@
     "auditLog": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\.eebb86263bd284869507ef8edaf0355dc1d21f74-audit.json",
     "files": [
         {
-            "date": 1696153025457,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-01-10-15-error.log",
-            "hash": "6892f535410ccc93207beddfb5ac88f68bb4ebc3c9b1d15aa65d4798aee736af"
-        },
-        {
-            "date": 1696154476856,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-01-10-16-error.log",
-            "hash": "6225b94deea24d1157d8d7a6bd0062900e2f5c424c2075af1a5a1eed0095273a"
-        },
-        {
-            "date": 1696167310616,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-01-10-19-error.log",
-            "hash": "ec7bc5edd03f983cb6b230a34dca226274f75693fe1f51a5d73ad18f0eac5a95"
-        },
-        {
-            "date": 1696180970046,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-01-10-23-error.log",
-            "hash": "496a3d4efee3dbdbbaac10c431134dc0ee99cec1ed1bf4a5d13c8e689adafee1"
-        },
-        {
-            "date": 1696184370430,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-02-10-00-error.log",
-            "hash": "971bcda7f403532b450ee6c78ba9dc7ed6d0a7c0fa71b314ff042eacf3b448cf"
-        },
-        {
-            "date": 1696219728336,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-02-10-10-error.log",
-            "hash": "f5ab8827dcaaf8c1ad51d3cdd64444abe108a3fa8bc65476ae154e356509c135"
-        },
-        {
-            "date": 1696223743402,
-            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-02-10-11-error.log",
-            "hash": "117be2e51d2be209296867cefa789c4c60cc1426cadef8a34c147eee5bfdae6e"
-        },
-        {
             "date": 1696409743047,
             "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-04-10-14-error.log",
             "hash": "95c59d68ec0ac8e3c5af420e450d6effa62e76d7d5331cd98983889dc86c39a7"
@@ -79,6 +44,56 @@
             "date": 1696495289756,
             "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-05-10-14-error.log",
             "hash": "b5b8b68a1274d546f5be9ffd3eb45d2026eecfea1c423f07c7c50a9f8313b474"
+        },
+        {
+            "date": 1696695910109,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-10-22-error.log",
+            "hash": "ff52a81d3f8314547c0de343241e4889987b55adbe4926b021c2a1b506270b1e"
+        },
+        {
+            "date": 1696739289580,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-08-10-10-error.log",
+            "hash": "4d4032a0b26cbf87407b5965ffe43a49b2e798bbd08842efe7ffaffd542b113d"
+        },
+        {
+            "date": 1696753180365,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-08-10-14-error.log",
+            "hash": "c290785bf52d7085bc0e2a0a79d8b2452736b1c63956eda99e82561403f23d46"
+        },
+        {
+            "date": 1696765257701,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-08-10-17-error.log",
+            "hash": "cb1be348020fefea8a43b35877e6523ddb0296b98c14f07ba6f73cf724faf7f6"
+        },
+        {
+            "date": 1696787274130,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-08-10-23-error.log",
+            "hash": "0785b03ac45e012578d2a9c3bda4d52c2687b19621f31b2cd826ec6774b088b2"
+        },
+        {
+            "date": 1696823582681,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-09-10-09-error.log",
+            "hash": "2eb70c177cc9144dbff14c0c9c11218516137383d03f9916b792793f4889e4ec"
+        },
+        {
+            "date": 1696997233508,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-11-10-10-error.log",
+            "hash": "dbc883582f81ed1c9c1031b21e0d8cf5a82e5a8f1434db8433468ae984c4b90a"
+        },
+        {
+            "date": 1697469556066,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-16-10-21-error.log",
+            "hash": "21627b65b510d48ded7e9ac582884fcd88ad6be2a2a3a36ad4111f0b3ad8f772"
+        },
+        {
+            "date": 1697480616193,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-10-00-error.log",
+            "hash": "e635ea495f687fb644fbf3a88864fdaf41437aa1261a3c7a4e4ccb5929fe2d46"
+        },
+        {
+            "date": 1697483636792,
+            "name": "C:\\Users\\asus\\Desktop\\Apollo_PH_Level_2_Web_Dev\\M-6_Be_A_SQL_Superstra\\API_GateWay\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-10-01-error.log",
+            "hash": "8e44466c47be54d07e50ddd5e0cc0f5df4899ee36f332b5b1165d721872536a8"
         }
     ],
     "hashType": "sha256"
